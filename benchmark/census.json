@@ -1,0 +1,762 @@
+{
+  "desc": "This file contains information about Census data, available in Google Cloud Storage.",
+  "gs_bucket": "ig-census",
+  "cbp": {
+    "years": [
+      1986,
+      1987,
+      1988,
+      1989,
+      1990,
+      1991,
+      1992,
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015
+    ],
+    "us": [
+      {
+        "name": "cbp86us.txt",
+        "desc": "Complete U.S. File, 1986",
+        "year": 1986,
+        "obj_name": "cbp/cbp86us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1986/cbp86us.txt"
+      },
+      {
+        "name": "cbp87us.txt",
+        "desc": "Complete U.S. File, 1987",
+        "year": 1987,
+        "obj_name": "cbp/cbp87us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1987/cbp87us.txt"
+      },
+      {
+        "name": "cbp88us.txt",
+        "desc": "Complete U.S. File, 1988",
+        "year": 1988,
+        "obj_name": "cbp/cbp88us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1988/cbp88us.txt"
+      },
+      {
+        "name": "cbp89us.txt",
+        "desc": "Complete U.S. File, 1989",
+        "year": 1989,
+        "obj_name": "cbp/cbp89us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1989/cbp89us.txt"
+      },
+      {
+        "name": "cbp90us.txt",
+        "desc": "Complete U.S. File, 1990",
+        "year": 1990,
+        "obj_name": "cbp/cbp90us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1990/cbp90us.txt"
+      },
+      {
+        "name": "cbp91us.txt",
+        "desc": "Complete U.S. File, 1991",
+        "year": 1991,
+        "obj_name": "cbp/cbp91us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1991/cbp91us.txt"
+      },
+      {
+        "name": "cbp92us.txt",
+        "desc": "Complete U.S. File, 1992",
+        "year": 1992,
+        "obj_name": "cbp/cbp92us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1992/cbp92us.txt"
+      },
+      {
+        "name": "cbp93us.txt",
+        "desc": "Complete U.S. File, 1993",
+        "year": 1993,
+        "obj_name": "cbp/cbp93us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1993/cbp93us.txt"
+      },
+      {
+        "name": "cbp94us.txt",
+        "desc": "Complete U.S. File, 1994",
+        "year": 1994,
+        "obj_name": "cbp/cbp94us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1994/cbp94us.txt"
+      },
+      {
+        "name": "cbp95us.txt",
+        "desc": "Complete U.S. File, 1995",
+        "year": 1995,
+        "obj_name": "cbp/cbp95us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1995/cbp95us.txt"
+      },
+      {
+        "name": "cbp96us.txt",
+        "desc": "Complete U.S. File, 1996",
+        "year": 1996,
+        "obj_name": "cbp/cbp96us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1996/cbp96us.txt"
+      },
+      {
+        "name": "cbp97us.txt",
+        "desc": "Complete U.S. File, 1997",
+        "year": 1997,
+        "obj_name": "cbp/cbp97us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1997/cbp97us.txt"
+      },
+      {
+        "name": "cbp98us.txt",
+        "desc": "Complete U.S. File, 1998",
+        "year": 1998,
+        "obj_name": "cbp/cbp98us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1998/cbp98us.txt"
+      },
+      {
+        "name": "cbp99us.txt",
+        "desc": "Complete U.S. File, 1999",
+        "year": 1999,
+        "obj_name": "cbp/cbp99us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1999/cbp99us.txt"
+      },
+      {
+        "name": "cbp00us.txt",
+        "desc": "Complete U.S. File, 2000",
+        "year": 2000,
+        "obj_name": "cbp/cbp00us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2000/cbp00us.txt"
+      },
+      {
+        "name": "cbp01us.txt",
+        "desc": "Complete U.S. File, 2001",
+        "year": 2001,
+        "obj_name": "cbp/cbp01us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2001/cbp01us.txt"
+      },
+      {
+        "name": "cbp02us.txt",
+        "desc": "Complete U.S. File, 2002",
+        "year": 2002,
+        "obj_name": "cbp/cbp02us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2002/cbp02us.txt"
+      },
+      {
+        "name": "cbp03us.txt",
+        "desc": "Complete U.S. File, 2003",
+        "year": 2003,
+        "obj_name": "cbp/cbp03us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2003/cbp03us.txt"
+      },
+      {
+        "name": "cbp04us.txt",
+        "desc": "Complete U.S. File, 2004",
+        "year": 2004,
+        "obj_name": "cbp/cbp04us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2004/cbp04us.txt"
+      },
+      {
+        "name": "cbp05us.txt",
+        "desc": "Complete U.S. File, 2005",
+        "year": 2005,
+        "obj_name": "cbp/cbp05us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2005/cbp05us.txt"
+      },
+      {
+        "name": "cbp06us.txt",
+        "desc": "Complete U.S. File, 2006",
+        "year": 2006,
+        "obj_name": "cbp/cbp06us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2006/cbp06us.txt"
+      },
+      {
+        "name": "cbp07us.txt",
+        "desc": "Complete U.S. File, 2007",
+        "year": 2007,
+        "obj_name": "cbp/cbp07us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2007/cbp07us.txt"
+      },
+      {
+        "name": "cbp08us.txt",
+        "desc": "Complete U.S. File, 2008",
+        "year": 2008,
+        "obj_name": "cbp/cbp08us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2008/cbp08us.zip"
+      },
+      {
+        "name": "cbp09us.txt",
+        "desc": "Complete U.S. File, 2009",
+        "year": 2009,
+        "obj_name": "cbp/cbp09us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2009/cbp09us.zip"
+      },
+      {
+        "name": "cbp10us.txt",
+        "desc": "Complete U.S. File, 2010",
+        "year": 2010,
+        "obj_name": "cbp/cbp10us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2010/cbp10us.zip"
+      },
+      {
+        "name": "cbp11us.txt",
+        "desc": "Complete U.S. File, 2011",
+        "year": 2011,
+        "obj_name": "cbp/cbp11us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2011/cbp11us.zip"
+      },
+      {
+        "name": "cbp12us.txt",
+        "desc": "Complete U.S. File, 2012",
+        "year": 2012,
+        "obj_name": "cbp/cbp12us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2012/cbp12us.zip"
+      },
+      {
+        "name": "cbp13us.txt",
+        "desc": "Complete U.S. File, 2013",
+        "year": 2013,
+        "obj_name": "cbp/cbp13us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2013/cbp13us.zip"
+      },
+      {
+        "name": "cbp14us.txt",
+        "desc": "Complete U.S. File, 2014",
+        "year": 2014,
+        "obj_name": "cbp/cbp14us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2014/cbp14us.zip"
+      },
+      {
+        "name": "cbp15us.txt",
+        "desc": "Complete U.S. File, 2015",
+        "year": 2015,
+        "obj_name": "cbp/cbp15us.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2015/cbp15us.zip"
+      }
+    ],
+    "state": [
+      {
+        "name": "cbp86st.txt",
+        "desc": "Complete State File, 1986",
+        "year": 1986,
+        "obj_name": "cbp/cbp86st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1986/cbp86st.zip"
+      },
+      {
+        "name": "cbp87st.txt",
+        "desc": "Complete State File, 1987",
+        "year": 1987,
+        "obj_name": "cbp/cbp87st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1987/cbp87st.zip"
+      },
+      {
+        "name": "cbp88st.txt",
+        "desc": "Complete State File, 1988",
+        "year": 1988,
+        "obj_name": "cbp/cbp88st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1988/cbp88st.zip"
+      },
+      {
+        "name": "cbp89st.txt",
+        "desc": "Complete State File, 1989",
+        "year": 1989,
+        "obj_name": "cbp/cbp89st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1989/cbp89st.zip"
+      },
+      {
+        "name": "cbp90st.txt",
+        "desc": "Complete State File, 1990",
+        "year": 1990,
+        "obj_name": "cbp/cbp90st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1990/cbp90st.zip"
+      },
+      {
+        "name": "cbp91st.txt",
+        "desc": "Complete State File, 1991",
+        "year": 1991,
+        "obj_name": "cbp/cbp91st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1991/cbp91st.zip"
+      },
+      {
+        "name": "cbp92st.txt",
+        "desc": "Complete State File, 1992",
+        "year": 1992,
+        "obj_name": "cbp/cbp92st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1992/cbp92st.zip"
+      },
+      {
+        "name": "cbp93st.txt",
+        "desc": "Complete State File, 1993",
+        "year": 1993,
+        "obj_name": "cbp/cbp93st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1993/cbp93st.zip"
+      },
+      {
+        "name": "cbp94st.txt",
+        "desc": "Complete State File, 1994",
+        "year": 1994,
+        "obj_name": "cbp/cbp94st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1994/cbp94st.zip"
+      },
+      {
+        "name": "cbp95st.txt",
+        "desc": "Complete State File, 1995",
+        "year": 1995,
+        "obj_name": "cbp/cbp95st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1995/cbp95st.zip"
+      },
+      {
+        "name": "cbp96st.txt",
+        "desc": "Complete State File, 1996",
+        "year": 1996,
+        "obj_name": "cbp/cbp96st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1996/cbp96st.zip"
+      },
+      {
+        "name": "cbp97st.txt",
+        "desc": "Complete State File, 1997",
+        "year": 1997,
+        "obj_name": "cbp/cbp97st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1997/cbp97st.zip"
+      },
+      {
+        "name": "cbp98st.txt",
+        "desc": "Complete State File, 1998",
+        "year": 1998,
+        "obj_name": "cbp/cbp98st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1998/cbp98st.zip"
+      },
+      {
+        "name": "cbp99st.txt",
+        "desc": "Complete State File, 1999",
+        "year": 1999,
+        "obj_name": "cbp/cbp99st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/1999/cbp99st.zip"
+      },
+      {
+        "name": "cbp00st.txt",
+        "desc": "Complete State File, 2000",
+        "year": 2000,
+        "obj_name": "cbp/cbp00st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2000/cbp00st.zip"
+      },
+      {
+        "name": "cbp01st.txt",
+        "desc": "Complete State File, 2001",
+        "year": 2001,
+        "obj_name": "cbp/cbp01st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2001/cbp01st.zip"
+      },
+      {
+        "name": "cbp02st.txt",
+        "desc": "Complete State File, 2002",
+        "year": 2002,
+        "obj_name": "cbp/cbp02st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2002/cbp02st.zip"
+      },
+      {
+        "name": "cbp03st.txt",
+        "desc": "Complete State File, 2003",
+        "year": 2003,
+        "obj_name": "cbp/cbp03st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2003/cbp03st.zip"
+      },
+      {
+        "name": "cbp04st.txt",
+        "desc": "Complete State File, 2004",
+        "year": 2004,
+        "obj_name": "cbp/cbp04st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2004/cbp04st.zip"
+      },
+      {
+        "name": "cbp05st.txt",
+        "desc": "Complete State File, 2005",
+        "year": 2005,
+        "obj_name": "cbp/cbp05st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2005/cbp05st.zip"
+      },
+      {
+        "name": "cbp06st.txt",
+        "desc": "Complete State File, 2006",
+        "year": 2006,
+        "obj_name": "cbp/cbp06st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2006/cbp06st.zip"
+      },
+      {
+        "name": "cbp07st.txt",
+        "desc": "Complete State File, 2007",
+        "year": 2007,
+        "obj_name": "cbp/cbp07st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2007/cbp07st.zip"
+      },
+      {
+        "name": "cbp08st.txt",
+        "desc": "Complete State File, 2008",
+        "year": 2008,
+        "obj_name": "cbp/cbp08st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2008/cbp08st.zip"
+      },
+      {
+        "name": "cbp09st.txt",
+        "desc": "Complete State File, 2009",
+        "year": 2009,
+        "obj_name": "cbp/cbp09st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2009/cbp09st.zip"
+      },
+      {
+        "name": "cbp10st.txt",
+        "desc": "Complete State File, 2010",
+        "year": 2010,
+        "obj_name": "cbp/cbp10st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2010/cbp10st.zip"
+      },
+      {
+        "name": "cbp11st.txt",
+        "desc": "Complete State File, 2011",
+        "year": 2011,
+        "obj_name": "cbp/cbp11st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2011/cbp11st.zip"
+      },
+      {
+        "name": "cbp12st.txt",
+        "desc": "Complete State File, 2012",
+        "year": 2012,
+        "obj_name": "cbp/cbp12st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2012/cbp12st.zip"
+      },
+      {
+        "name": "cbp13st.txt",
+        "desc": "Complete State File, 2013",
+        "year": 2013,
+        "obj_name": "cbp/cbp13st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2013/cbp13st.zip"
+      },
+      {
+        "name": "cbp14st.txt",
+        "desc": "Complete State File, 2014",
+        "year": 2014,
+        "obj_name": "cbp/cbp14st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2014/cbp14st.zip"
+      },
+      {
+        "name": "cbp15st.txt",
+        "desc": "Complete State File, 2015",
+        "year": 2015,
+        "obj_name": "cbp/cbp15st.txt",
+        "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2015/cbp15st.zip"
+      }
+    ]
+  },
+  "bds": {
+    "firm": [
+      {
+        "desc": "Economy Wide",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_all_release.csv",
+        "name": "bds_f_all.csv",
+        "obj_name": "bds/bds_f_all.csv"
+      },
+      {
+        "desc": "Sector",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_sic_release.csv",
+        "name": "bds_f_sic.csv",
+        "obj_name": "bds/bds_f_sic.csv"
+      },
+      {
+        "desc": "Firm Size",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_sz_release.csv",
+        "name": "bds_f_sz.csv",
+        "obj_name": "bds/bds_f_sz.csv"
+      },
+      {
+        "desc": "Initial Firm Size",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_isz_release.csv",
+        "name": "bds_f_isz.csv",
+        "obj_name": "bds/bds_f_isz.csv"
+      },
+      {
+        "desc": "Firm Age",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_age_release.csv",
+        "name": "bds_f_age.csv",
+        "obj_name": "bds/bds_f_age.csv"
+      },
+      {
+        "desc": "State",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_st_release.csv",
+        "name": "bds_f_st.csv",
+        "obj_name": "bds/bds_f_st.csv"
+      },
+      {
+        "desc": "Metro/Non-Metro ",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_metrononmetro_release.csv",
+        "name": "bds_f_metrononmetro.csv",
+        "obj_name": "bds/bds_f_metrononmetro.csv"
+      },
+      {
+        "desc": "MSA",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_msa_release.csv",
+        "name": "bds_f_msa.csv",
+        "obj_name": "bds/bds_f_msa.csv"
+      },
+      {
+        "desc": "Firm Age by Firm Size",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_agesz_release.csv",
+        "name": "bds_f_agesz.csv",
+        "obj_name": "bds/bds_f_agesz.csv"
+      },
+      {
+        "desc": "Firm Age by Initial Firm Size",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_ageisz_release.csv",
+        "name": "bds_f_ageisz.csv",
+        "obj_name": "bds/bds_f_ageisz.csv"
+      },
+      {
+        "desc": "Firm Age by Sector",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_agesic_release.csv",
+        "name": "bds_f_agesic.csv",
+        "obj_name": "bds/bds_f_agesic.csv"
+      },
+      {
+        "desc": "Firm Age by Metro/Non-Metro ",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_agemetrononmetro_release.csv",
+        "name": "bds_f_agemetrononmetro.csv",
+        "obj_name": "bds/bds_f_agemetrononmetro.csv"
+      },
+      {
+        "desc": "Firm Age by MSA ",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_agemsa_release.csv",
+        "name": "bds_f_agemsa.csv",
+        "obj_name": "bds/bds_f_agemsa.csv"
+      },
+      {
+        "desc": "Firm Age by State",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_agest_release.csv",
+        "name": "bds_f_agest.csv",
+        "obj_name": "bds/bds_f_agest.csv"
+      },
+      {
+        "desc": "Firm Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_szsic_release.csv",
+        "name": "bds_f_szsic.csv",
+        "obj_name": "bds/bds_f_szsic.csv"
+      },
+      {
+        "desc": "Firm Size by Metro/Non-Metro",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_szmetrononmetro_release.csv",
+        "name": "bds_f_szmetrononmetro.csv",
+        "obj_name": "bds/bds_f_szmetrononmetro.csv"
+      },
+      {
+        "desc": "Firm Size by MSA ",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_szmsa_release.csv",
+        "name": "bds_f_szmsa.csv",
+        "obj_name": "bds/bds_f_szmsa.csv"
+      },
+      {
+        "desc": "Firm Size by State",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_szst_release.csv",
+        "name": "bds_f_szst.csv",
+        "obj_name": "bds/bds_f_szst.csv"
+      },
+      {
+        "desc": "Initial Firm Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_iszsic_release.csv",
+        "name": "bds_f_iszsic.csv",
+        "obj_name": "bds/bds_f_iszsic.csv"
+      },
+      {
+        "desc": "Initial Firm Size by Metro/Non-Metro",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_iszmetrononmetro_release.csv",
+        "name": "bds_f_iszmetrononmetro.csv",
+        "obj_name": "bds/bds_f_iszmetrononmetro.csv"
+      },
+      {
+        "desc": "Initial Firm Size by State",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_iszst_release.csv",
+        "name": "bds_f_iszst.csv",
+        "obj_name": "bds/bds_f_iszst.csv"
+      },
+      {
+        "desc": "Firm Age by Firm Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/firm/age_size_sector/bds_f_agesz_sic_release.csv",
+        "name": "bds_f_agesz_sic.csv",
+        "obj_name": "bds/bds_f_agesz_sic.csv"
+      },
+      {
+        "desc": "Firm Age by Firm Size by State",
+        "url": "http://www2.census.gov/ces/bds/firm/age_size_state/bds_f_agesz_st_release.csv",
+        "name": "bds_f_agesz_st.csv",
+        "obj_name": "bds/bds_f_agesz_st.csv"
+      },
+      {
+        "desc": "Firm Age by Firm Size by Metro/Non-Metro",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_ageszmetrononmetro_release.csv",
+        "name": "bds_f_ageszmetrononmetro.csv",
+        "obj_name": "bds/bds_f_ageszmetrononmetro.csv"
+      },
+      {
+        "desc": "Firm Age by Firm Size by MSA",
+        "url": "http://www2.census.gov/ces/bds/firm/age_size_msa/bds_f_agesz_msa_release.csv",
+        "name": "bds_f_agesz_msa.csv",
+        "obj_name": "bds/bds_f_agesz_msa.csv"
+      },
+      {
+        "desc": "Firm Age by Initial Firm Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/firm/age_initial_size_sector/bds_f_ageisz_sic_release.csv",
+        "name": "bds_f_ageisz_sic.csv",
+        "obj_name": "bds/bds_f_ageisz_sic.csv"
+      },
+      {
+        "desc": "Firm Age by Initial Firm Size by State",
+        "url": "http://www2.census.gov/ces/bds/firm/age_initial_size_state/bds_f_ageisz_st_release.csv",
+        "name": "bds_f_ageisz_st.csv",
+        "obj_name": "bds/bds_f_ageisz_st.csv"
+      },
+      {
+        "desc": "Firm Age by Initial Firm Size by Metro/Non-Metro ",
+        "url": "http://www2.census.gov/ces/bds/firm/bds_f_ageiszmetro_release.csv",
+        "name": "bds_f_ageiszmetro.csv",
+        "obj_name": "bds/bds_f_ageiszmetro.csv"
+      },
+      {
+        "desc": "Firm Age by Firm Size by Metro/Non-Metro by State ",
+        "url": "http://www2.census.gov/ces/bds/firm/age_size_metro_st/bds_f_ageszmetro_state_release.csv",
+        "name": "bds_f_ageszmetro_state.csv",
+        "obj_name": "bds/bds_f_ageszmetro_state.csv"
+      },
+      {
+        "desc": "Firm Age by Initial Firm Size by Metro/Non-Metro by State ",
+        "url": "http://www2.census.gov/ces/bds/firm/age_initial_size_metro_st/bds_f_ageiszmetro_state_release.csv",
+        "name": "bds_f_ageiszmetro_state.csv",
+        "obj_name": "bds/bds_f_ageiszmetro_state.csv"
+      }
+    ],
+    "estab": [
+      {
+        "desc": "Economy Wide",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_all_release.csv",
+        "name": "bds_e_all.csv",
+        "obj_name": "bds/bds_e_all.csv"
+      },
+      {
+        "desc": "Sector",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_sic_release.csv",
+        "name": "bds_e_sic.csv",
+        "obj_name": "bds/bds_e_sic.csv"
+      },
+      {
+        "desc": "Establishment Size",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_sz_release.csv",
+        "name": "bds_e_sz.csv",
+        "obj_name": "bds/bds_e_sz.csv"
+      },
+      {
+        "desc": "Initial Establishment Size",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_isz_release.csv",
+        "name": "bds_e_isz.csv",
+        "obj_name": "bds/bds_e_isz.csv"
+      },
+      {
+        "desc": "Establishment Age",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_age_release.csv",
+        "name": "bds_e_age.csv",
+        "obj_name": "bds/bds_e_age.csv"
+      },
+      {
+        "desc": "State",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_st_release.csv",
+        "name": "bds_e_st.csv",
+        "obj_name": "bds/bds_e_st.csv"
+      },
+      {
+        "desc": "MSA",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_msa_release.csv",
+        "name": "bds_e_msa.csv",
+        "obj_name": "bds/bds_e_msa.csv"
+      },
+      {
+        "desc": "Establishment Age by Establishment Size",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_agesz_release.csv",
+        "name": "bds_e_agesz.csv",
+        "obj_name": "bds/bds_e_agesz.csv"
+      },
+      {
+        "desc": "Establishment Age by Initial Establishment Size",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_ageisz_release.csv",
+        "name": "bds_e_ageisz.csv",
+        "obj_name": "bds/bds_e_ageisz.csv"
+      },
+      {
+        "desc": "Establishment Age by Sector",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_agesic_release.csv",
+        "name": "bds_e_agesic.csv",
+        "obj_name": "bds/bds_e_agesic.csv"
+      },
+      {
+        "desc": "Establishment Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_szsic_release.csv",
+        "name": "bds_e_szsic.csv",
+        "obj_name": "bds/bds_e_szsic.csv"
+      },
+      {
+        "desc": "Initial Establishment Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_iszsic_release.csv",
+        "name": "bds_e_iszsic.csv",
+        "obj_name": "bds/bds_e_iszsic.csv"
+      },
+      {
+        "desc": "Establishment Age by State",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_agest_release.csv",
+        "name": "bds_e_agest.csv",
+        "obj_name": "bds/bds_e_agest.csv"
+      },
+      {
+        "desc": "Establishment Size by State",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_szst_release.csv",
+        "name": "bds_e_szst.csv",
+        "obj_name": "bds/bds_e_szst.csv"
+      },
+      {
+        "desc": "Initial Establishment Size by State",
+        "url": "http://www2.census.gov/ces/bds/estab/bds_e_iszst_release.csv",
+        "name": "bds_e_iszst.csv",
+        "obj_name": "bds/bds_e_iszst.csv"
+      },
+      {
+        "desc": "Establishment Age by Establishment Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/estab/age_size_sector/bds_e_agesz_sic_release.csv",
+        "name": "bds_e_agesz_sic.csv",
+        "obj_name": "bds/bds_e_agesz_sic.csv"
+      },
+      {
+        "desc": "Establishment Age by Establishment Size by State",
+        "url": "http://www2.census.gov/ces/bds/estab/age_size_state/bds_e_agesz_st_release.csv",
+        "name": "bds_e_agesz_st.csv",
+        "obj_name": "bds/bds_e_agesz_st.csv"
+      },
+      {
+        "desc": "Establishment Age by Initial Establishment Size by Sector",
+        "url": "http://www2.census.gov/ces/bds/estab/age_initial_size_sector/bds_e_ageisz_sic_release.csv",
+        "name": "bds_e_ageisz_sic.csv",
+        "obj_name": "bds/bds_e_ageisz_sic.csv"
+      },
+      {
+        "desc": "Establishment Age by Initial Establishment Size by State",
+        "url": "http://www2.census.gov/ces/bds/estab/age_initial_size_state/bds_e_ageisz_st_release.csv",
+        "name": "bds_e_ageisz_st.csv",
+        "obj_name": "bds/bds_e_ageisz_st.csv"
+      }
+    ]
+  }
+}
